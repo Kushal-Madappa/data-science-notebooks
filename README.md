@@ -36,3 +36,11 @@ notebooks can link to instead of re-deriving basics.
   open with a one-sentence question and close with one chart + one
   number. If a notebook can't be summarized that way, the question
   isn't sharp enough yet — split it into two notebooks.
+
+- **2026-05-27** -- Pinning a "one notebook = one question" rule in
+  practice: when `01_pandas_fundamentals.ipynb` lands, it answers
+  *"what's the smallest reusable subset of pandas idioms I need for
+  90% of EDA?"* -- not "everything pandas can do." The other 10% lives
+  in `02_eda_template.ipynb` where it gets called by name. Same
+  separation-of-concerns instinct that makes the DP rolling-window
+  trick work: keep state minimal, defer the rest.
