@@ -11,3 +11,28 @@ Planned notebooks:
 
 Each notebook documents the dataset, the questions explored, the methods
 applied, and the conclusions drawn.
+
+## Notebook conventions
+
+To keep the repo reviewable, every notebook follows the same skeleton:
+
+1. **Question** — one sentence stating what the notebook answers.
+2. **Data** — source, shape, dtypes, and any cleaning notes.
+3. **Method** — what was done and *why this approach* over alternatives.
+4. **Result** — the headline finding, ideally in one chart and one
+   number.
+5. **Caveats** — what the analysis does not say.
+
+**Next pickup:** `01_pandas_fundamentals.ipynb` — a working reference
+notebook (groupby, merge, reshape, time-indexed ops) that later
+notebooks can link to instead of re-deriving basics.
+
+---
+
+### Log
+
+- **2026-05-25** — The five-step skeleton (Question / Data / Method /
+  Result / Caveats) is non-negotiable: every notebook in this repo must
+  open with a one-sentence question and close with one chart + one
+  number. If a notebook can't be summarized that way, the question
+  isn't sharp enough yet — split it into two notebooks.
